@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="myporfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+</head>
+<body class="p-10 md:bg-red-100 bg-dark text-white" >
+   <div class="line"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   <header class="header active ">
+     <!-- <video src="backv.mp4" autoplay muted loop class="absolute inset-0 object-cover w-full h-full -z-10"></video> -->
+    <a id="logo" href="#home" class="logo"> <i class='bx bx-user bx-fade-right'>.Cublex01</i></a>
+    <div class="menu-toggle">
+        <i class='bx bx-menu'></i>
+    </div>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#home"  data-aos="fade-down" data-aos-delay="100"> <i class='bx bx-home'></i>Home</a></li>
+            <li><a href="#about"  data-aos="fade-down" data-aos-delay="200"> <i class='bx bx-user'></i>About</a></li>
+            <li><a href="#skills"  data-aos="fade-down" data-aos-delay="300"> <i class='bx bx-cog'></i>Skills</a></li>
+            <li><a href="#projects"  data-aos="fade-down" data-aos-delay="400"> <i class='bx bx-briefcase'></i>Projects</a></li>
+            <li><a href="#contact"  data-aos="fade-down" data-aos-delay="500"> <i class='bx bx-message-rounded-dots'></i>Contact</a></li>
+        </ul>
+    </nav>
+    <select class="theme-selector bg-dark rounded p-2 text-white shadow" id="color">
+        <option value="Yellow"> Dark</option>
+        <option value="white">Light</option>
+    </select>
+   </header>
+<br>
+
+
+   <section id="home" class="section">
+    
+    <div class="home-content">
+        <div class="home-text">
+            <h1 class="display-1 text-muted" data-aos="fade-up" data-aos-delay="600">Hi, I'm <span class="display-1"><i class='bx bx-fade-up'>Cublex01</i></span></h1>
+            <p class="p1 text-muted"><span> <i class='bx bx-flashing'>Frontend developer</i></span> and <span></span> ethical hacker</p>
+
+            <p class="text">I am a passionate developer with expertise in building interactive, responsive, and secure web applications. With a strong background in frontend development and ethical hacking, I create user-friendly interfaces while ensuring security best practices.</p>
+                <br>
+
+            <p class="text">I am always eager to learn new technologies and improve my skills. I am currently learning C++ and I am excited to work on new projects.</p>
+            <br>
+            <div class="button-box">
+                <a href="CV_Emmanuel.pdf" class="btn btn-custom" download>Download CV</a>
+                <a href="https://github.com/Cublex01" target="_blank" class="btn btn-sm">Contact Me</a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/cublex01/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Cublex01" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/cublex01/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/Cublex01" target="_blank"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </div>
+
+        <div class="pic-box" data-aos="zoom-in" data-aos-delay="800">
+            <div class="pic-ring">
+               <spline-viewer url="https://prod.spline.design/mJlLb6apWJz8U8st/scene.splinecode" class="robot"></spline-viewer>
+            </div>
+        </div>
+           
+    </div>
+   </section>
+
+   <section id="about" class="about-section">
+    <div class="about-content">
+        <h2 data-aos="fade-up" data-aos-delay="500">About Me</h2>
+        <p class="text" data-aos="fade-up" data-aos-delay="550"> I am a frontend developer and I am passionate about creating beautiful and functional websites.
+            I have experience working with HTML, CSS, and JavaScript to build responsive and user-friendly websites.
+            I am always looking for new challenges and opportunities to learn and grow as a developer.
+            I am excited to work on new projects and contribute to the web development community.</p> 
+    </div>
+    <div class="my-pic-box" data-aos="fade-left" data-aos-delay="600">
+        <img src="Benedict.png" alt="Profile picture" class="">
+    </div> 
+   </section>
+
+<!-- skills -->
+
+<section id="skills" class="skill-section container-fluid rounded shadow p-5" >
+    <div class="skill-item">
+        <h2 class="fw-bold display-5" data-aos="fade-up" data-aos-delay="500">Skills</h2>
+        <p class="fw-bold" data-aos="fade-up" data-aos-delay="550">HTML</p>
+        <div class="progress" data-aos="fade-up" data-aos-delay="600">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 95%">95%</div>
+        </div>
+        <p class="fw-bold" data-aos="fade-up" data-aos-delay="650">CSS</p>
+        <div class="progress" data-aos="fade-up" data-aos-delay="700">  
+            <div class=" bg-success progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+        </div>
+        <p class="fw-bold" data-aos="fade-up" data-aos-delay="750">JavaScript</p>
+        <div class="progress" data-aos="fade-up" data-aos-delay="800">
+            <div class=" bg-danger progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 35%">35%</div>
+        </div>
+        <p class="fw-bold" data-aos="fade-up" data-aos-delay="850">Bootstrap</p>
+        <div class="progress" data-aos="fade-up" data-aos-delay="900">
+            <div class=" bg-secondary progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+        </div>
+        <p class="fw-bold" data-aos="fade-up" data-aos-delay="950">Linux</p>
+        <div class="progress" data-aos="fade-up" data-aos-delay="1000">
+            <div class="bg-warning progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+        </div>
+        <p class="fw-bold" data-aos="fade-up" data-aos-delay="1050">Bash script</p>
+        <div class="progress" data-aos="fade-up" data-aos-delay="1100">
+            <div class=" bg-info progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%">65%</div>
+        </div>
+        <p class="fw-bold" data-aos="fade-up" data-aos-delay="1150">Ethical Hacking</p>
+        <div class="progress" data-aos="fade-up" data-aos-delay="1200 ">
+            <div class=" bg-primary progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+        </div>
+        <p class="fw-bold" data-aos="fade-up" data-aos-delay="1250">C++</p>
+        <div class="progress" data-aos="fade-up" data-aos-delay="1300">
+            <div class=" bg-danger progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%</div>
+        </div>
+        <p class="fw-bold" data-aos="fade-up" data-aos-delay="1350">Arduino</p>
+        <div class="progress" data-aos="fade-up" data-aos-delay="1400">
+            <div class=" bg-success progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+        </div>
+        <p class="fw-bold" data-aos="fade-up" data-aos-delay="1450">MySQL</p>
+        <div class="progress" data-aos="fade-up" data-aos-delay="1500">
+            <div class=" bg-secondary progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
+        </div>
+        <p class="fw-bold" data-aos="fade-up" data-aos-delay="1550">PHP</p>
+        <div class="progress" data-aos="fade-up" data-aos-delay="1600">
+            <div class=" bg-warning progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects-section container-fluid rounded shadow p-5">
+    <h2 class="display-5 fw-bold text-center mb-5" data-aos="fade-up" data-aos-delay="600">Projects</h2>
+    <div class="projects-container">
+        <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+            <a href="https://www.hopp.bio/emmanuellgany"><img src="thacker.jpeg" alt="Hacking project"></a>
+            <h3>Ethical Hacking personal project.</h3>
+            <p>I have two years of experience in Ethical Hacking and I am passionate about this field. </p>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+            <a href="https://www.hopp.bio/emmanuellgany"><img src="Arduino.jpg" alt="Arduino project"></a>
+            <h3>Arduino project microcontroller.</h3>
+            <p>I don't know much about microcontrollers, but I enjoy working with them.</p>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="700">
+            <a href="https://www.hopp.bio/emmanuellgany"><img src="c++.jpeg" alt="C++ project"></a>
+            <h3>C++ project building game.</h3>
+            <p>I'm a beginner in C++ but I enjoy learning new things</p>
+        </div>
+    </div>
+</section>
+
+<!-- contact section -->
+<section id="contact" class="contact-section container-fluid p-5">
+    <h2 class="fw-bold text-center mb-4" data-aos="fade-up" data-aos-delay="600">Contact Me<i class='bx bxs-megaphone text-success bx-tada'></i></h2>
+    <form method="post" action="" class="contact-form" data-aos="fade-up" data-aos-delay="700">
+        <div class="input-box">
+            <div class="input-field">
+                <div class="inner-box">
+                    <input type="text" class="form-control" placeholder="Enter your name" id="name" autocomplete="off" required>
+                    <input type="email" class="form-control" placeholder="Enter your email" id="email" required>
+                </div>
+            </div>
+
+            <div class="input-field">
+                <textarea name="message" class="form-control" id="message" cols="0" rows="10" placeholder="Enter your message" autocomplete="off"></textarea>
+                <input type="submit" class="btn btn-primary btn-lg w-100 mt-3" value="Submit">
+            </div>
+        </div>
+    </form>
+</section>
+
+<footer class="footer container-fluid p-5 bg-dark text-white mt-5 w-100">
+    
+    <div class="media d-flex justify-content-center mb-3">
+        <a href="https://www.hopp.bio/emmanuellgany" data-aos="fade-up" data-aos-delay="100"><i class='bx bxl-hopp'></i></a>
+        <a href="https://www.hopp.bio/emmanuellgany" data-aos="fade-up" data-aos-delay="200"><i class='bx bxl-github'></i></a>
+        <a href="https://www.hopp.bio/emmanuellgany" data-aos="fade-up" data-aos-delay="300"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.hopp.bio/emmanuellgany" data-aos="fade-up" data-aos-delay="400"><i class='bx bxl-instagram'></i></a>
+    </div>
+
+    <div class="footer-text text-start mb-3 text-muted" data-aos="fade-up" data-aos-delay="500">
+        <h2>Thank you for visiting my portfolio!</h2>
+        <p>Feel free to reach out if you have any questions or would like to collaborate.</p>
+        <p class="text-muted">Made with <i class='bx bxs-heart text-danger'></i> by Cublex01</p>
+       
+    </div>
+ <p class="text-muted fs-5" data-aos="fade-up" data-aos-delay="600">© 2025 Cublex01. All rights reserved.</p>
+
+</footer>
+
+
+
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.98/build/spline-viewer.js"></script>
+
+
+
+<script src="myporfolio.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
